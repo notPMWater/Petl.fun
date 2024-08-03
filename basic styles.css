@@ -1,0 +1,42 @@
+body{
+    padding: 0;
+    margin: 0;
+    cursor: default;
+    z-index: -10000;
+}
+
+.main-title {
+    width: 430px;
+}
+
+.textbox {
+    padding: 0px;
+    margin: 0px;
+    padding-left: 10px;
+    border: 5px solid black;
+    cursor: text;
+}
+.textbox:focus{
+    border: 5px solid black;
+}
+
+.main-title .row {
+    height: 30px
+}
+
+.btn-play {
+    width: 100%;
+    background-color: #1dd129;
+    border: 5px solid #1da129;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+}
+.btn-play:hover {
+    background-color: #1de129;
+    border-color: #1da129;
+}
+.btn-play a:focus::before{
+    background-color: #1de129;
+    border-color: #1da129;
+}
